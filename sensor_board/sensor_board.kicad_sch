@@ -1,0 +1,1133 @@
+(kicad_sch 
+  (version 20260306) 
+  (generator "eeschema") 
+  (generator_version "10.0") 
+  (uuid "5413d2a9-e49f-422f-af04-58a25b38fa95") 
+  (paper "A4") 
+  (lib_symbols 
+    (symbol "Connector_Generic:Conn_01x02" 
+      (pin_names 
+        (offset 1.016) 
+        (hide yes)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (in_pos_files yes) 
+      (duplicate_pin_numbers_are_jumpers no) 
+      (property "Reference" "J" 
+        (at 0 2.54 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Value" "Conn_01x02" 
+        (at 0 -5.08 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Footprint" "" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Datasheet" "" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_keywords" "connector" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_fp_filters" "Connector*:*_1x??_*" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (symbol "Conn_01x02_1_1" 
+        (rectangle 
+          (start -1.27 1.27) 
+          (end 1.27 -3.81) 
+          (stroke 
+            (width 0.254) 
+            (type default)) 
+          (fill 
+            (type background))) 
+        (rectangle 
+          (start -1.27 0.127) 
+          (end 0 -0.127) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (rectangle 
+          (start -1.27 -2.413) 
+          (end 0 -2.667) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (pin passive line 
+          (at -5.08 0 0) 
+          (length 3.81) 
+          (name "Pin_1" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin passive line 
+          (at -5.08 -2.54 0) 
+          (length 3.81) 
+          (name "Pin_2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (embedded_fonts no)) 
+    (symbol "esp_board:BM03B-SRSS-TBLFSN" 
+      (body_styles demorgan) 
+      (pin_names 
+        (offset 0.254)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (in_pos_files yes) 
+      (duplicate_pin_numbers_are_jumpers no) 
+      (property "Reference" "J" 
+        (at 8.89 6.35 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.524 1.524)))) 
+      (property "Value" "BM03B-SRSS-TBLFSN" 
+        (at 9.144 3.81 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.524 1.524)))) 
+      (property "Footprint" "CONN_BM03B-SRSS-TBLFSN_JST" 
+        (at 1.27 -9.144 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27) 
+            (italic yes)))) 
+      (property "Datasheet" "BM03B-SRSS-TBLFSN" 
+        (at 2.032 -11.684 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27) 
+            (italic yes)))) 
+      (property "Description" "" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_locked" "" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_keywords" "BM03B-SRSS-TB(LF)(SN)" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "ki_fp_filters" "CONN_BM03B-SRSS-TBLFSN_JST" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (symbol "BM03B-SRSS-TBLFSN_1_1" 
+        (rectangle 
+          (start 5.08 2.54) 
+          (end 12.7 -7.62) 
+          (stroke 
+            (width 0) 
+            (type solid)) 
+          (fill 
+            (type background))) 
+        (polyline 
+          (pts 
+            (xy 10.16 0) 
+            (xy 5.08 0)) 
+          (stroke 
+            (width 0.127) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 10.16 0) 
+            (xy 8.89 0.8467)) 
+          (stroke 
+            (width 0.127) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 10.16 0) 
+            (xy 8.89 -0.8467)) 
+          (stroke 
+            (width 0.127) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 10.16 -2.54) 
+            (xy 5.08 -2.54)) 
+          (stroke 
+            (width 0.127) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 10.16 -2.54) 
+            (xy 8.89 -1.6933)) 
+          (stroke 
+            (width 0.127) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 10.16 -2.54) 
+            (xy 8.89 -3.3867)) 
+          (stroke 
+            (width 0.127) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 10.16 -5.08) 
+            (xy 5.08 -5.08)) 
+          (stroke 
+            (width 0.127) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 10.16 -5.08) 
+            (xy 8.89 -4.2333)) 
+          (stroke 
+            (width 0.127) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 10.16 -5.08) 
+            (xy 8.89 -5.9267)) 
+          (stroke 
+            (width 0.127) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (pin unspecified line 
+          (at 0 0 0) 
+          (length 5.08) 
+          (name "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin unspecified line 
+          (at 0 -2.54 0) 
+          (length 5.08) 
+          (name "2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "2" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin unspecified line 
+          (at 0 -5.08 0) 
+          (length 5.08) 
+          (name "3" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "3" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (symbol "BM03B-SRSS-TBLFSN_1_2" 
+        (polyline 
+          (pts 
+            (xy 5.08 2.54) 
+            (xy 5.08 -7.62)) 
+          (stroke 
+            (width 0.127) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 5.08 -7.62) 
+            (xy 12.7 -7.62)) 
+          (stroke 
+            (width 0.127) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 7.62 0) 
+            (xy 5.08 0)) 
+          (stroke 
+            (width 0.127) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 7.62 0) 
+            (xy 8.89 0.8467)) 
+          (stroke 
+            (width 0.127) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 7.62 0) 
+            (xy 8.89 -0.8467)) 
+          (stroke 
+            (width 0.127) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 7.62 -2.54) 
+            (xy 5.08 -2.54)) 
+          (stroke 
+            (width 0.127) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 7.62 -2.54) 
+            (xy 8.89 -1.6933)) 
+          (stroke 
+            (width 0.127) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 7.62 -2.54) 
+            (xy 8.89 -3.3867)) 
+          (stroke 
+            (width 0.127) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 7.62 -5.08) 
+            (xy 5.08 -5.08)) 
+          (stroke 
+            (width 0.127) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 7.62 -5.08) 
+            (xy 8.89 -4.2333)) 
+          (stroke 
+            (width 0.127) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 7.62 -5.08) 
+            (xy 8.89 -5.9267)) 
+          (stroke 
+            (width 0.127) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 12.7 2.54) 
+            (xy 5.08 2.54)) 
+          (stroke 
+            (width 0.127) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 12.7 -7.62) 
+            (xy 12.7 2.54)) 
+          (stroke 
+            (width 0.127) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (pin unspecified line 
+          (at 0 0 0) 
+          (length 5.08) 
+          (name "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin unspecified line 
+          (at 0 -2.54 0) 
+          (length 5.08) 
+          (name "2" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "2" 
+            (effects 
+              (font 
+                (size 1.27 1.27))))) 
+        (pin unspecified line 
+          (at 0 -5.08 0) 
+          (length 5.08) 
+          (name "3" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))) 
+          (number "3" 
+            (effects 
+              (font 
+                (size 1.27 1.27)))))) 
+      (embedded_fonts no)) 
+    (symbol "esp_board:PTA2043-2015CPB103" 
+      (pin_names 
+        (offset 1.016)) 
+      (exclude_from_sim no) 
+      (in_bom yes) 
+      (on_board yes) 
+      (in_pos_files yes) 
+      (duplicate_pin_numbers_are_jumpers no) 
+      (property "Reference" "R" 
+        (at -5.08 5.08 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (justify left bottom))) 
+      (property "Value" "PTA2043-2015CPB103" 
+        (at -5.08 2.54 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (justify left bottom))) 
+      (property "Footprint" "PTA2043-2015CPB103:TRIM_PTA2043-2015CPB103" 
+        (at 2.794 -14.224 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (justify bottom))) 
+      (property "Datasheet" "" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "Description" "" 
+        (at 0 0 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)))) 
+      (property "PARTREV" "04/21" 
+        (at 6.604 -6.35 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (justify bottom))) 
+      (property "STANDARD" "Manufacturer Recommendations" 
+        (at -0.254 -11.176 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (justify bottom))) 
+      (property "SNAPEDA_PN" "PTA2043-2015CPB103" 
+        (at 0.254 -16.51 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (justify bottom))) 
+      (property "MAXIMUM_PACKAGE_HEIGHT" "16.9 mm" 
+        (at -10.16 -4.318 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (justify bottom))) 
+      (property "MANUFACTURER" "Bourns" 
+        (at 15.748 -4.826 0) 
+        (show_name no) 
+        (do_not_autoplace no) 
+        (hide yes) 
+        (effects 
+          (font 
+            (size 1.27 1.27)) 
+          (justify bottom))) 
+      (symbol "PTA2043-2015CPB103_0_0" 
+        (polyline 
+          (pts 
+            (xy -5.08 0) 
+            (xy -4.572 0)) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy -4.572 0) 
+            (xy -3.81 1.016)) 
+          (stroke 
+            (width 0.254) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy -3.81 1.016) 
+            (xy -2.54 -1.27)) 
+          (stroke 
+            (width 0.254) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy -2.54 -1.27) 
+            (xy -1.27 1.016)) 
+          (stroke 
+            (width 0.254) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy -1.27 1.016) 
+            (xy 0 -1.27)) 
+          (stroke 
+            (width 0.254) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy -1.27 -2.54) 
+            (xy 0 -1.27)) 
+          (stroke 
+            (width 0.2032) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 0 -1.27) 
+            (xy 1.27 1.016)) 
+          (stroke 
+            (width 0.254) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 0 -1.27) 
+            (xy 1.27 -2.54)) 
+          (stroke 
+            (width 0.2032) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 1.27 1.016) 
+            (xy 2.54 -1.27)) 
+          (stroke 
+            (width 0.254) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 1.27 -2.54) 
+            (xy -1.27 -2.54)) 
+          (stroke 
+            (width 0.2032) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 2.54 -1.27) 
+            (xy 3.81 1.016)) 
+          (stroke 
+            (width 0.254) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 3.81 1.016) 
+            (xy 4.572 0)) 
+          (stroke 
+            (width 0.254) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (polyline 
+          (pts 
+            (xy 4.572 0) 
+            (xy 5.08 0)) 
+          (stroke 
+            (width 0.1524) 
+            (type default)) 
+          (fill 
+            (type none))) 
+        (pin passive line 
+          (at -7.62 0 0) 
+          (length 2.54) 
+          (name "" 
+            (effects 
+              (font 
+                (size 1.016 1.016)))) 
+          (number "1" 
+            (effects 
+              (font 
+                (size 1.016 1.016))))) 
+        (pin passive line 
+          (at 0 -5.08 90) 
+          (length 2.54) 
+          (name "" 
+            (effects 
+              (font 
+                (size 1.016 1.016)))) 
+          (number "2" 
+            (effects 
+              (font 
+                (size 1.016 1.016))))) 
+        (pin passive line 
+          (at 7.62 0 180) 
+          (length 2.54) 
+          (name "" 
+            (effects 
+              (font 
+                (size 1.016 1.016)))) 
+          (number "3" 
+            (effects 
+              (font 
+                (size 1.016 1.016)))))) 
+      (embedded_fonts no))) 
+  (junction 
+    (at 162.56 73.66) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "1a992e16-b6c4-423c-b86f-ff540aef7afe")) 
+  (junction 
+    (at 161.29 71.12) 
+    (diameter 0) 
+    (color 0 0 0 0) 
+    (uuid "becb2c46-fafc-4956-aeb3-1a48ad16c7cb")) 
+  (wire 
+    (pts 
+      (xy 162.56 60.96) 
+      (xy 162.56 73.66)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "04004613-8ffe-4e6e-bbac-762348cc7800")) 
+  (wire 
+    (pts 
+      (xy 134.62 76.2) 
+      (xy 148.59 76.2)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "0c8c7b85-26a4-476f-99e6-71baf69c265b")) 
+  (wire 
+    (pts 
+      (xy 162.56 73.66) 
+      (xy 171.45 73.66)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "43180f38-17f6-40da-9531-37138635ded2")) 
+  (wire 
+    (pts 
+      (xy 134.62 71.12) 
+      (xy 161.29 71.12)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "4c3c3206-6363-4114-bb29-4e38f7ac6761")) 
+  (wire 
+    (pts 
+      (xy 143.51 80.01) 
+      (xy 151.13 80.01)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "4ec189e4-7662-4301-a23d-1a8b52517f5b")) 
+  (wire 
+    (pts 
+      (xy 151.13 76.2) 
+      (xy 171.45 76.2)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "5539ba9f-22af-4bc1-be09-313c43d0ae3e")) 
+  (wire 
+    (pts 
+      (xy 173.99 58.42) 
+      (xy 161.29 58.42)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "660d2346-2fec-4ac3-988a-a1612233198b")) 
+  (wire 
+    (pts 
+      (xy 134.62 66.04) 
+      (xy 134.62 71.12)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "80c51f98-3148-445b-b12f-64255eba168d")) 
+  (wire 
+    (pts 
+      (xy 148.59 73.66) 
+      (xy 162.56 73.66)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "81435d23-e999-4c29-9bc5-4b93d9881fac")) 
+  (wire 
+    (pts 
+      (xy 133.35 73.66) 
+      (xy 143.51 73.66)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "871da507-9cdd-40f0-a675-59ace320b323")) 
+  (wire 
+    (pts 
+      (xy 128.27 81.28) 
+      (xy 134.62 81.28)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "8c232aec-a9d5-41e2-9d1e-20dfffa34181")) 
+  (wire 
+    (pts 
+      (xy 148.59 76.2) 
+      (xy 148.59 73.66)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "9e6ff2f5-e08b-4405-88e5-a2b208312871")) 
+  (wire 
+    (pts 
+      (xy 161.29 58.42) 
+      (xy 161.29 71.12)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "b6aced82-5b34-45c8-b828-22ab52f1913b")) 
+  (wire 
+    (pts 
+      (xy 161.29 71.12) 
+      (xy 171.45 71.12)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "e25a0721-bd49-4a97-b361-72a0cf8c3869")) 
+  (wire 
+    (pts 
+      (xy 128.27 66.04) 
+      (xy 134.62 66.04)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "e3eb3840-4012-4432-8029-817a1602f3fc")) 
+  (wire 
+    (pts 
+      (xy 134.62 81.28) 
+      (xy 134.62 76.2)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "e586fc84-fe57-4494-846f-dde5549f8d85")) 
+  (wire 
+    (pts 
+      (xy 173.99 60.96) 
+      (xy 162.56 60.96)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "e6f08fa1-0450-478f-82cc-80ee01f27df6")) 
+  (wire 
+    (pts 
+      (xy 143.51 73.66) 
+      (xy 143.51 80.01)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "ed6a1f06-950a-4220-ad8d-e3c0d21030ac")) 
+  (wire 
+    (pts 
+      (xy 151.13 80.01) 
+      (xy 151.13 76.2)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "f2f24534-4f5b-4cd8-b2b1-4c7f5bfc075d")) 
+  (label "Vcc" 
+    (at 163.83 71.12 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "2b7add70-f246-4139-bedc-eea16232a33c")) 
+  (label "GND" 
+    (at 163.83 73.66 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "2fa312e7-aa42-49fa-9cf9-7d24ead8fd41")) 
+  (label "signal" 
+    (at 162.56 76.2 0) 
+    (effects 
+      (font 
+        (size 1.27 1.27)) 
+      (justify left bottom)) 
+    (uuid "a0fcf199-16c5-4cd5-a1b0-42e1f97129cd")) 
+  (symbol 
+    (lib_id "esp_board:BM03B-SRSS-TBLFSN") 
+    (at 171.45 71.12 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "2544d82b-0b6b-41fd-b966-ab6b48d7cf8d") 
+    (property "Reference" "J1" 
+      (at 185.42 72.3899 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.524 1.524)) 
+        (justify left))) 
+    (property "Value" "BM03B-SRSS-TBLFSN" 
+      (at 185.42 74.9299 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.524 1.524)) 
+        (justify left))) 
+    (property "Footprint" "CONN_BM03B-SRSS-TBLFSN_JST" 
+      (at 172.72 80.264 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27) 
+          (italic yes)))) 
+    (property "Datasheet" "BM03B-SRSS-TBLFSN" 
+      (at 173.482 82.804 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27) 
+          (italic yes)))) 
+    (property "Description" "" 
+      (at 171.45 71.12 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "2" 
+      (uuid "c843d2dd-9f80-43b8-afe7-b781d7bbac5f")) 
+    (pin "3" 
+      (uuid "7279fe6a-048b-46f4-9621-cd5794473d6d")) 
+    (pin "1" 
+      (uuid "232f13ec-da36-461d-b9e3-475d92b30b57")) 
+    (instances 
+      (project "sensor_board" 
+        (path "/5413d2a9-e49f-422f-af04-58a25b38fa95" 
+          (reference "J1") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "Connector_Generic:Conn_01x02") 
+    (at 179.07 58.42 0) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "254f17b6-003d-4849-814e-babe937e382b") 
+    (property "Reference" "J2" 
+      (at 181.61 58.4199 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "Conn_01x02" 
+      (at 181.61 60.9599 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal" 
+      (at 179.07 58.42 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Datasheet" "" 
+      (at 179.07 58.42 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)" 
+      (at 179.07 58.42 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (pin "2" 
+      (uuid "19d69366-d038-47c9-b5ba-379c339d40cf")) 
+    (pin "1" 
+      (uuid "bc10c6cd-36dc-4871-a79b-a7847e0a7470")) 
+    (instances 
+      (project "sensor_board" 
+        (path "/5413d2a9-e49f-422f-af04-58a25b38fa95" 
+          (reference "J2") 
+          (unit 1))))) 
+  (symbol 
+    (lib_id "esp_board:PTA2043-2015CPB103") 
+    (at 128.27 73.66 90) 
+    (unit 1) 
+    (body_style 1) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (in_pos_files yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (uuid "58defd86-27f4-463f-b2f3-d3f9c6c4439f") 
+    (property "Reference" "R1" 
+      (at 125.73 72.3899 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Value" "PTA2043-2015CPB103" 
+      (at 125.73 74.9299 90) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (property "Footprint" "esp_board:PTA2043-2015CPB103" 
+      (at 142.494 70.866 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify bottom))) 
+    (property "Datasheet" "" 
+      (at 128.27 73.66 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "Description" "" 
+      (at 128.27 73.66 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)))) 
+    (property "PARTREV" "04/21" 
+      (at 134.62 67.056 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify bottom))) 
+    (property "STANDARD" "Manufacturer Recommendations" 
+      (at 139.446 73.914 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify bottom))) 
+    (property "SNAPEDA_PN" "PTA2043-2015CPB103" 
+      (at 144.78 73.406 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify bottom))) 
+    (property "MAXIMUM_PACKAGE_HEIGHT" "16.9 mm" 
+      (at 132.588 83.82 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify bottom))) 
+    (property "MANUFACTURER" "Bourns" 
+      (at 133.096 57.912 0) 
+      (hide yes) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify bottom))) 
+    (pin "1" 
+      (uuid "452636bd-8a04-423e-8dfc-2d5339b6b249")) 
+    (pin "3" 
+      (uuid "53c123a1-410e-431d-8a9e-dc8e28cc4efa")) 
+    (pin "2" 
+      (uuid "cc914123-ddbe-4014-ac11-99ddaf977e9b")) 
+    (instances 
+      (project "sensor_board" 
+        (path "/5413d2a9-e49f-422f-af04-58a25b38fa95" 
+          (reference "R1") 
+          (unit 1))))) 
+  (sheet_instances 
+    (path "/" 
+      (page "1"))) 
+  (embedded_fonts no))
