@@ -27,7 +27,7 @@
       "text": false,
       "tracks": false,
       "vias": true,
-      "zones": false
+      "zones": true
     },
     "visible_items": [
       "vias",
@@ -98,16 +98,16 @@
     "col_widths": [
       222,
       207,
-      136,
+      137,
       92,
-      136,
-      136,
-      136,
+      137,
+      137,
+      137,
       98,
-      136,
-      136,
-      136,
-      136
+      137,
+      137,
+      137,
+      137
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

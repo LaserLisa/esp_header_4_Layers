@@ -6945,7 +6945,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part#" ""
+		(property "JLCPCB Part#" "C160391"
 			(at 140.97 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8456,7 +8456,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part#" ""
+		(property "JLCPCB Part#" "C160391"
 			(at 140.97 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -8558,7 +8558,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part#" ""
+		(property "JLCPCB Part#" "C160388"
 			(at 158.75 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -8653,7 +8653,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part#" ""
+		(property "JLCPCB Part#" "C160391"
 			(at 140.97 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -9487,7 +9487,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AOD472A"
+		(property "Value" "MS50N06"
 			(at 44.45 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9531,7 +9531,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part#" ""
+		(property "JLCPCB Part#" "C2902884"
 			(at 38.1 148.59 0)
 			(hide yes)
 			(show_name no)
