@@ -1,3 +1,5 @@
 .history/
 *.gbr
 *.zip
+*.kicad_prl
+*.gbrjob
